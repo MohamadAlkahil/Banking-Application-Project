@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #42e375;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_v2.Customer_WindowController">
+   <children>
+      <HBox layoutY="300.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="611.0">
+               <children>
+                  <Button layoutX="261.0" layoutY="31.0" mnemonicParsing="false" onAction="#LogoutPushed" style="-fx-background-color: #ffffff;" text="LogOut" textFill="#006b19" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <VBox layoutX="337.0" prefHeight="315.0" prefWidth="243.0">
+         <children>
+            <AnchorPane prefHeight="338.0" prefWidth="243.0">
+               <children>
+                  <Text fill="WHITE" layoutX="38.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OnlinePurchse">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="83.0" layoutY="194.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Deposit" textFill="#006b19" />
+                  <Button layoutX="76.0" layoutY="138.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Withdraw" textFill="#006b19" />
+                  <TextField layoutX="15.0" layoutY="80.0" prefHeight="39.0" prefWidth="222.0" promptText="Amount" />
+                  <Button layoutX="52.0" layoutY="249.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="OnlinePurchase" textFill="#006b19" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox layoutX="21.0" prefHeight="315.0" prefWidth="243.0">
+         <children>
+            <AnchorPane prefHeight="338.0" prefWidth="243.0">
+               <children>
+                  <Label layoutX="27.0" layoutY="88.0" prefHeight="27.0" prefWidth="190.0" text="UserName:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="131.0" prefHeight="27.0" prefWidth="190.0" text="Balance: $" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="183.0" prefHeight="27.0" prefWidth="190.0" text="Level:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

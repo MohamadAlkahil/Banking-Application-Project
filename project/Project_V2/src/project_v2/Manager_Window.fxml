@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #42e375;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="project_v2.Manager_WindowController">
+   <children>
+      <VBox prefHeight="285.0" prefWidth="319.0">
+         <children>
+            <AnchorPane prefHeight="290.0" prefWidth="319.0">
+               <children>
+                  <Text fill="WHITE" layoutX="72.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Customer">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="38.0" layoutY="80.0" prefHeight="39.0" prefWidth="243.0" promptText="UserName " />
+                  <TextField layoutX="38.0" layoutY="136.0" prefHeight="39.0" prefWidth="243.0" promptText="New Password" />
+                  <Button layoutX="121.0" layoutY="210.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Add" textFill="#006b19" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <HBox layoutY="300.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="611.0">
+               <children>
+                  <Button layoutX="261.0" layoutY="31.0" mnemonicParsing="false" onAction="#LogoutPushed" style="-fx-background-color: #ffffff;" text="LogOut" textFill="#006b19" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <VBox layoutX="281.0" prefHeight="285.0" prefWidth="319.0">
+         <children>
+            <AnchorPane prefHeight="290.0" prefWidth="319.0">
+               <children>
+                  <Text fill="WHITE" layoutX="48.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Customer">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="38.0" layoutY="109.0" prefHeight="39.0" prefWidth="243.0" promptText="UserName " />
+                  <Button layoutX="121.0" layoutY="166.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Delete" textFill="#006b19" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
